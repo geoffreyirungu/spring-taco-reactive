@@ -1,0 +1,5 @@
+spring:
+    r2dbc:
+        #generate-unique-name: false
+        name: tacocloud
+        url: r2dbc:h2:mem:///tacocloud
